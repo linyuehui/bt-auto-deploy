@@ -1,14 +1,13 @@
 {
-  "name": "bt/auto-deploy",
+  "name": "shine/bt-auto-deploy",
   "description": "BT Automated site deployment",
   "keywords": [
-    "BT",
-    "auto-deploy",
-    "bt"
+    "shine",
+    "auto-deploy"
   ],
   "autoload": {
     "psr-4": {
-      "Bt\\AutoDeploy\\": "src/"
+      "BtAutoDeploy\\": "src/"
     },
     "files": [
       "src/functions.php"
