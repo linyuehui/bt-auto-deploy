@@ -1,0 +1,26 @@
+{
+  "name": "bt/auto-deploy",
+  "description": "BT Automated site deployment",
+  "keywords": [
+    "BT",
+    "auto-deploy",
+    "bt"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bt\\AutoDeploy\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "林跃辉",
+      "email": "173219921@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
