@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Bt\\AutoDeploy\\' => array($baseDir . '/src'),
+    'BtAutoDeploy\\' => array($baseDir . '/src'),
 );
